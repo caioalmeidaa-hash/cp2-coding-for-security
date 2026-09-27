@@ -1,0 +1,6 @@
+<!doctype html><html><body>
+<h1>Dashboard seguro</h1><table border="1"><tr><th>Título</th><th>Ativo</th></tr>
+{% for i in incidentes %}<tr><td>{{ i.titulo }}</td><td><img src="/icone.png" alt="{{ i.ativo }}"></td></tr>{% endfor %}
+</table>
+<!-- Jinja escapa por padrão; aplicar |safe a conteúdo do usuário removeria essa proteção e reabriria XSS. -->
+</body></html>

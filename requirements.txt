@@ -1,0 +1,7 @@
+flask
+python-dotenv
+mysql-connector-python
+pymongo
+scikit-learn
+numpy
+markupsafe
