@@ -26,10 +26,3 @@ cobrindo SQL vs NoSQL, MongoDB, MySQL, Machine Learning, APIs Flask e OWASP Top 
    ```
    python exercicio1/main.py
    ```
-
-## Aviso
-
-Os exercícios 5, 6, 7 e 8 usam Flask e sobem um servidor local
-(`app.run()`). Os payloads e exploits, quando presentes, foram testados
-exclusivamente contra a própria cópia local, conforme instruções do
-enunciado.
